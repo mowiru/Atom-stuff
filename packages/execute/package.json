@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+        "spec": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\ruedel\\AppData\\Local\\Temp\\apm-install-dir-118825-7256-dt7jpb.g2ay4g3nmi"
+    ]
+  ],
+  "_from": "..\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+  "_id": "execute@1.2.0",
+  "_inCache": true,
+  "_location": "/execute",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+    "spec": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+  "_shasum": "7d72bf35eab27594fd11b3994b82ca347232ef5d",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\d-118825-7256-1x4tbow.xgtmq2gldi\\package.tgz",
+  "_where": "C:\\Users\\ruedel\\AppData\\Local\\Temp\\apm-install-dir-118825-7256-dt7jpb.g2ay4g3nmi",
+  "activationCommands": {
+    "atom-workspace": [
+      "execute:command",
+      "execute:background",
+      "execute:re-run-last-command",
+      "execute:toggle-panel",
+      "execute:kill-last-command",
+      "execute:cwd",
+      "execute:copy"
+    ]
+  },
+  "author": {
+    "name": "Graham Krizek"
+  },
+  "bugs": {
+    "url": "https://github.com/gkrizek/execute/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  },
+  "description": "A Terminal in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/gkrizek/execute",
+  "keywords": [
+    "command",
+    "terminal",
+    "execute",
+    "unix",
+    "run"
+  ],
+  "license": "MIT",
+  "main": "./lib/execute",
+  "name": "execute",
+  "optionalDependencies": {},
+  "readme": "# Execute\n\nRun commands without leaving Atom.\n\n## Features:\n\n- tab autocompletion\n- color output\n- setting the working directory\n- run commands with or without output\n- copy and paste the output\n\n## Commands:\n\n| Command                           | macOS Shortcut                  | Linux Shortcut                | Notes                                                 |\n|:----------------------------------|:--------------------------------|:------------------------------|:------------------------------------------------------|\n| `command`                         | <kbd>cmd-ctrl-r</kbd>           | <kbd>shift-ctrl-r</kbd>       | execute a terminal command                            |\n| `background`                      | <kbd>cmd-ctrl-b</kbd>           | <kbd>shift-ctrl-b</kbd>       | execute a terminal command without displaying output  |\n| `copy`                            | <kbd>cmd-ctrl-alt-c</kbd>       | <kbd>shift-ctrl-alt-c</kbd>   | copy the output of the last command                   |\n| `cwd`                             | <kbd>cmd-ctrl-w</kbd>           | <kbd>shift-ctrl-w</kbd>       | set the current working directory                     |\n| `re-run-last-command`             | <kbd>cmd-ctrl-alt-r</kbd>       | <kbd>shift-ctrl-alt-r</kbd>   | run your last executed command again                  |\n| `kill-last-command`               | <kbd>cmd-ctrl-alt-x</kbd>       | <kbd>shift-ctrl-alt-x</kbd>   | terminate the last command you ran                    |\n| `toggle-panel`                    | <kbd>cmd-ctrl-x</kbd>           | <kbd>shift-ctrl-x</kbd>       | toggle the output panel                               |\n\n### Example\n\nRun tests, installs, or deploys right in Atom\n\n![](screenshots/deploy.gif)\n\n_This package is based on [run-command](https://atom.io/packages/run-command) and [run-command2](https://atom.io/packages/run-command2)_\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkrizek/execute.git"
+  },
+  "version": "1.2.0"
+}
